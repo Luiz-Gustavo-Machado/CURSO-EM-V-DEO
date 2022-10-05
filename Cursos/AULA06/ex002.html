@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro Programa JS</title>
+    <style>
+        body {background-color: rgb(102, 196, 202);
+        color: white;
+        font: normal 20pt Arial;
+        padding: 60px;
+        margin: 20px;
+        }
+
+        h1 { 
+            color: black;
+        }
+
+        h1:hover {
+            color: aquamarine;
+            transform: scale(1.03);
+            transition: .7s;
+        }
+
+        p:hover {
+            color: bisque;
+            transform: scale(1.03);
+            transition: .7s;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1> Olá, mundo! </h1>
+    <p>Deus é bom o Tempo Todo</p>
+    <script>
+        var n1 = window.prompt("Digite um número: ")
+        var n2 = window.prompt("Digite mais um número: ")
+        var s = Number(n1) + Number(n2)
+        window.alert(`A soma entre ${n1} e ${n2} é igial a ${s}`  ) // templete string com placeholder
+            //n1.toFixed(2).replace(".",",")
+          //para acrescentar ou dimunior cassas decimais usando o famoso toFixed(2) entre parentesses colocamos a quantidade de casas que gostariamos e em vez de . podemos converlo para , dessa foprma .toFixed(2).replace(".",",")
+
+
+    </script>
+</body>
+</html>
