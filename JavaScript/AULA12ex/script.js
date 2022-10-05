@@ -1,16 +1,14 @@
-
-
 function carregar() {
-    let msg = window.document.querySelector('div#msg')
-    let img = window.document.querySelector('div#imagem')
+    let msg = window.document.getElementById('msg')
+    let img = window.document.getElementById('imagem')
     let data = new Date()
    // let hora = data.getHours()
-    var hora = 21
+    let hora = 8
     msg.innerHTML = `Agora são ${hora} Horas.`
-    if (hora >= 0 && hora < 12) {
+    if (hora >= 0 && hora <= 12) {
         //BOM DIA!
         img.src = `manham.png`
-    } else if (hora >= 12 && <= 18) {
+    } else if (hora >= 12 && hora <= 18) {
         //BOA TARDE!
         img.src = `tarde.png`
     } else {
