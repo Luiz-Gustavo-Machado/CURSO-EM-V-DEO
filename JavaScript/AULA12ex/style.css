@@ -8,9 +8,7 @@
 body {
     background: rgb(84, 162, 235);
     font: normal 15pt Arial;
-    height: 700px;
-    
-    
+  
 }
 
 header {
@@ -20,6 +18,7 @@ header {
 }
 
 
+
 section {
     background: white;
     border-radius: 10px;
@@ -27,6 +26,20 @@ section {
     width: 500px;
     margin: 20px auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+    text-align: center;
+}
+
+div {
+    margin-top: 15px;
+}
+
+#imagem {
+    transition: top ease .8s;
+
+}
+
+#imagem:hover {
+  transform: scale3d(1.1);
 }
 
 footer {
