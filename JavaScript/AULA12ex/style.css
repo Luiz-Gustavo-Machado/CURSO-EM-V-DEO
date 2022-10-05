@@ -8,6 +8,7 @@
 body {
     background: rgb(84, 162, 235);
     font: normal 15pt Arial;
+    height: 700px;
     
     
 }
@@ -16,11 +17,8 @@ header {
     color: aliceblue;
     margin-top: 20px;
     text-align: center;
-
-
-    
-
 }
+
 
 section {
     background: white;
@@ -29,14 +27,10 @@ section {
     width: 500px;
     margin: 20px auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
-  
-  
 }
 
 footer {
     color: aliceblue;
     text-align: center;
     font-style: italic;
-    
-
 }
