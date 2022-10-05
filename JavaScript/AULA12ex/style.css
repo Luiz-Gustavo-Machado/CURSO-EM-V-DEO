@@ -15,6 +15,8 @@ header {
     color: aliceblue;
     margin-top: 20px;
     text-align: center;
+    transition: transform .4s;
+    animation: fromBottom .7s backwards;
 }
 
 
@@ -27,6 +29,9 @@ section {
     margin: 20px auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
     text-align: center;
+    transition: top ease .8s;
+    transition: transform .4s;
+    animation: fromBottom .7s backwards;
 }
 
 div {
@@ -34,16 +39,45 @@ div {
 }
 
 #imagem {
-    transition: top ease .8s;
+   transition: top ease .8s;
+   transition: transform .4s;
+   animation: fromBottom .7s backwards;
 
 }
 
 #imagem:hover {
-  transform: scale3d(1.1);
+  transform: scale(1.1);
 }
 
 footer {
     color: aliceblue;
     text-align: center;
     font-style: italic;
+}
+
+
+@keyframes fromTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+        
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fromBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+        
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
