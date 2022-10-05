@@ -11,7 +11,7 @@ function carregar() {
         //BOM DIA!
         img.src = `manham.png`
         document.body.style.background = "#87CEFA"
-    } else if (hora >= 12 && hora <= 18) {
+    } else if (hora >= 12 && hora <= 17) {
         //BOA TARDE!
         img.src = `tarde.png`
         document.body.style.background = "#CD853F"
