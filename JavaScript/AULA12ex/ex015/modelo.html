@@ -3,25 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo de Exercicio</title>
+    <title>Verificador de idade</title>
     <link rel="stylesheet" href="style.css">
 
 </head>
-<body onload="carregar()">
+<body>
     <header>
-        <h1>Relógio</h1>
+        <h1>Verificador de Idade</h1>
     </header>
     <section>
-        <div id="msg">
-            Aqui vai minha mensagem...
-        </div>
         <div>
-           <img id="imagem" src="manham.png" alt="foto do dia">
+            <p> Ano de Nascimento:
+                <input type="number" name="txtano "id="txtano" min="0">
+            </p>
+            <p> Sexo:
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p class="botao">
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+           Preencha corretamente
         </div>
     </section>
     <footer>
         <p>&copy; CursoemVídeo</p>
     </footer>
-    <script src="./script.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
