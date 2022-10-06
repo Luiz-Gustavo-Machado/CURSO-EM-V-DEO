@@ -35,4 +35,4 @@ if (idade < 16) {
     console.log('O Voto Opcional!')
 } else {
     console.log('O Voto Obrigatório!')
-}
+}*/
