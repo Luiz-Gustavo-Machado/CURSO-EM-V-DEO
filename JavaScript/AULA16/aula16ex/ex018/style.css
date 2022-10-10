@@ -6,13 +6,13 @@
 }
 
 body {
-    background: #2F4F4F;
+    background: #fffaad;
     font: normal 15pt Arial;
   
 }
 
 header {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     margin-top: 20px;
     text-align: center;
     transition: transform .4s;
@@ -41,7 +41,7 @@ div {
 }
 
 footer {
-    color: aliceblue;
+    color: rgb(0, 36, 68);
     text-align: center;
     font-style: italic;
 }
