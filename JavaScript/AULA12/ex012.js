@@ -10,7 +10,7 @@ if (hora < 12) {
 
 // podemos pegar a hora atual do sistema
 
-/*let agora = new Date()
+let agora = new Date()
 let hora = agora.getHours
 console.log(`Agora são exatamente ${hora} horas.`)
 if (hora < 6) {
@@ -21,7 +21,7 @@ if (hora < 6) {
     console.log(`Boa tarde`)
 } else {
     console.log(`Boa Noite`)
-}*/
+}
 
 
 
